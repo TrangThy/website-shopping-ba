@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIÊN HỆ</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="D:\WEBB\Web-bootstrap\NONGTHITHUYTRANG_191A010101\style1.css">-->
+    <script src="js/jquery.js "></script>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+<style>
+    .body {
+        font-family: 'Quicksand', sans-serif!important;
+        font-size: 15px;
+        line-height: 20px;
+        background: #F6F3E4;
+        color: #212121;
+    }
+    /*#page.home-page {
+    background: #F6F3E4;
+    height: 90px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}*/
+    
+    header {
+        background-color: #F7F7F7;
+        height: 50px;
+    }
+    
+    .menu-head-top {
+        width: 1155px;
+        margin: 0 auto;
+    }
+    
+    .menu-top-signin {
+        float: right;
+        margin-top: 12px;
+    }
+    
+    .navbar-form {
+        margin-top: 0px;
+        margin-left: 50px;
+        height: 50px;
+    }
+    
+    .navbar-form .form-group {
+        margin-top: 10px;
+        margin-left: 500px;
+        height: 50px;
+    }
+    
+    .menu-top-signin>a {
+        color: #040505;
+        margin-left: 20px;
+        text-decoration: none;
+    }
+    
+    .btn-default {
+        margin-top: -7px;
+    }
+    
+    .navbar-form .form-control {
+        width: 200px;
+    }
+    
+    .navbar-default .navbar-text {
+        margin-right: 200px;
+    }
+    
+    .navbar-right {
+        margin-top: 12px;
+        margin-right: 30px;
+    }
+    
+    .header.header {
+        border-bottom: 1px solid #E3DDBB;
+        height: 150px;
+    }
+    
+    .container {
+        width: 970px;
+        height: 100px;
+    }
+    
+    .main_header {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0px;
+        align-items: center;
+        height: 90%;
+        width: 1100px;
+    }
+    
+    .logo a {
+        display: flex;
+        align-items: center;
+        height: 3px;
+        width: 3px;
+    }
+    
+    .logo img {
+        margin-left: -40px;
+    }
+    
+    #menu {
+        margin-right: 100px;
+    }
+    
+    .navbar-nav {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        justify-content: flex-end;
+    }
+    
+    .navbar-nav>li>a {
+        color: black;
+        font-weight: bold;
+    }
+    
+    .c-box_root {
+        min-height: 700px;
+    }
+    
+    .c-box_root {
+        padding-top: 130px;
+        margin-bottom: 90px;
+    }
+    
+    .content {
+        max-width: 960px;
+        margin: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    
+    .col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .c-title_module {
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 45px 0;
+    }
+    
+    .c-box_store {
+        max-width: 960px;
+        margin: auto;
+    }
+    
+    h1 {
+        font-weight: bold;
+    }
+    
+    p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 40px;
+        margin: auto;
+    }
+    
+    .block-news-default {
+        max-width: 960px;
+        margin: auto;
+        margin-top: 40px;
+    }
+    
+    h2 {
+        font-weight: bold;
+        font-size: 16px;
+    }
+    
+    .c-map {
+        border-top: 1px solid #E3DDBB;
+        padding-top: 25px;
+    }
+    /*--footer--*/
+    
+    .container {
+        max-width: 86%;
+        padding: 0 0;
+    }
+    
+    footer .copyright {
+        display: flex;
+        margin-bottom: 35px;
+        margin-top: 30px;
+        justify-content: center;
+        border-top: 1px solid #E3DDBB;
+        padding-top: 20px;
+    }
+</style>
+
+<body>
+    <div id="page" class="home-page">
+        <header>
+            <div class="header header_home" style="height: 150px;">
+                <div class="menu-head-top">
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Tìm kiếm sản phẩm...">
+                        </div>
+                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                    </form>
+                    <div class="menu-top-signin">
+                        <a href="dangky.html">
+                            <i class="fas fa-user-plus"></i> Đăng ký</a>
+                        <a href="dangnhap.html">
+                            <i class="fas fa-user-alt"></i> Đăng nhập</a>
+                        <a href="giohang.html"><i class="fas fa-shopping-cart">
+                    </i></i> Giỏ hàng</a>
+
+                    </div>
+                </div>
+
+
+
+                <div class="container">
+                    <div class="main_header">
+                        <div class="logo">
+                            <a href="index.html" title="BYME">
+                                <img src="image/logobrand1.png" alt="BYME" class="img-reponsive img_logo">
+                            </a>
+                        </div>
+                        <div id="menu" class="main_menu">
+                            <ul class="nav navbar-nav main-menu">
+                                <li class="menu-item">
+                                    <a href="index.html" title="TRANG CHỦ">TRANG CHỦ</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="sanpham.html" title="SẢN PHẨM">SẢN PHẨM</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="bst.html" title="BỘ SƯU TẬP">BỘ SƯU TẬP</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="gioithieu.html" title="GIỚI THIỆU">GIỚI THIỆU</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="lienhe.html" title="LIÊN HỆ">LIÊN HỆ</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="chinhsach.html" title="CHÍNH SÁCH">CHÍNH SÁCH</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </header>
+
+        <main id="main" class="row-content c-box_root main-content">
+            <div class="content row-item">
+                <div class="row">
+                    <div class="main-column row-content col-sm-12 col-xs-12">
+                        <div class="row-content pos_contents_top">
+                            <div id="banner-16" class="item">
+                                <a target="_blank" rel="nofollow" href="" title="Banner Top Trang Store">
+                                    <img class="img-responsive" alt="Banner Top Trang Store" src="image/bymestore.png">
+                                </a>
+                            </div>
+                        </div>
+                        <!--END .pos_contents_top -->
+                    </div>
+                </div>
+            </div>
+            <div class="c-box_store">
+                <h1 class="c-title_module">store</h1>
+                <p class="c-summary">
+                    BYME hiện đã có showroom ở Sài Gòn. Giờ hoạt động: 8:00 AM - 22:00 PM mỗi ngày, trừ các dịp lễ Tết (lịch hoạt động trong các dịp đặc biệt sẽ có thông báo riêng). </p>
+
+            </div>
+            <div class="block block-news block-news-default">
+                <div class="block-content">
+                    <div class="row c-box_map">
+                        <div class="col-md-4 c-col_store">
+                            <h2><i class="fas fa-store"></i> CỬA HÀNG</h2>
+                            <div class="c-map">
+                                <div class="item_map">
+                                    <div class="content">
+                                        <p>
+                                            <span>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    </span> Số 470 Luỹ Bán Bích, phường Hoà Thạnh, Quận Tân Phú, Tp. HCM</p>
+                                        <p>
+                                            <span>
+                                    <i class="fas fa-phone-alt"></i>
+                                    </span> 0247 3050 996 </p>
+                                        <p>
+                                            <span>
+                                        <i class="fas fa-envelope"></i>
+                                    </span> beestudio@gmail.com </p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="c-box_selection">
+                            <div class="col-md-8 c-col_map">
+                                <div class="mapContainer">
+                                    <p>
+                                        <span>
+                                    <i class="fas fa-map-marked-alt"></i>
+                                    </span> <b>Bản đồ</b> </p>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.410635814209!2d106.63355011425645!3d10.77982816207989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ea5c5c8947f%3A0x5c6f3391c9b477c6!2zNDcwIEzFqXkgQsOhbiBCw61jaCwgSG_DoCBUaGFuaCwgVMOibiBQaMO6LCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1638426127735!5m2!1svi!2s"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+        <footer class="container-fuild c-footer ">
+            <div class="container">
+                <div class="copyright">
+                    <span>©2021 Byme.vn</span>
+                </div>
+            </div>
+
+        </footer>
+        </div>
+</body>
+
+</html>
