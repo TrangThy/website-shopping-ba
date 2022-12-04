@@ -7,3 +7,9 @@ TRANG CHỦ
 
 SẢN PHẨM
 ![2](https://user-images.githubusercontent.com/119467840/204757820-b538df11-ee65-4d0e-bfb7-d24ac742fb51.JPG)
+
+BỘ SƯU TẬP
+![9](https://user-images.githubusercontent.com/119467840/205480738-e2e7f376-1faf-495b-9f3e-c3e878adc245.JPG)
+
+CHÍNH SÁCH
+![8](https://user-images.githubusercontent.com/119467840/205480754-7a365c0b-3ecc-4fa3-89f1-1ad8ef25f6ba.JPG)
